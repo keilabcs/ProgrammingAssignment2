@@ -3,30 +3,27 @@
 
 
 ## Put comments here that give an overall description of what your
-## Coloque comentários aqui que dão uma descrição geral do que o seu
 
-# Inversão da matriz é geralmente um cálculo dispendiosa e pode haver algum benefício
-# Para cache o inverso de uma matriz em vez de calculá-lo repetidamente. A
-# Após duas funções são usadas para armazenar em cache o inverso de uma matriz.
 
-# MakeCacheMatrix cria uma lista contendo uma função para
-# 1. definir o valor da matriz
-# 2. obter o valor da matriz
-# 3. definir o valor da inversa da matriz
-# 4. obter o valor do inverso da matriz
+# Invert the matrix is usually a costly calculation and may be some benefit 
+# To cache the inverse of a matrix instead of calculating it repeatedly. The 
+# After two functions are used to cache the inverse of a matrix. 
+
+# MakeCacheMatrix creates a list containing a function to 
+# 1 set the value of the matrix 
+# 2. get the value of the matrix 
+# 3 set the value of the inverse matrix 
+# 4 get the value of the inverse matrix
 
 ## functions do
-## funções fazer
-
 
 
 ## Write a short comment describing this function
-## Faça um breve comentário descrevendo esta função
 
-# A seguinte função retorna o inverso da matriz. Ele primeiro verifica se
-# O inverso já foi calculado. Se assim for, ele recebe o resultado e ignora o
-# Computação. Se não, ele calcula o inverso, define o valor no cache via
-# Função setinverse.
+# The following function returns the inverse matrix. It first checks 
+# The converse has already been calculated. If so, he gets the result and ignores the
+# Computing. If not, it computes the reverse, sets the value in the cache via 
+# Function setinverse.
 
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -48,7 +45,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## Faça um breve comentário descrevendo esta função
 
 
-# Esta função assume que a matriz é sempre invertida.
+# This function assumes that the array is always reversed.
 
 
 cacheSolve <- function(x=matrix(), ...) {
